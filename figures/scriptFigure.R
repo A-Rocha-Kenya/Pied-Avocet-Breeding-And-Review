@@ -6,6 +6,7 @@ library(gridExtra)
 library(lubridate)
 library(leaflet)
 library(stringr)
+library(readxl)
 theme_set(theme_bw())
 setwd('C:/Users/rnussba1/OneDrive/ARK/ARK - Science/01. Publications/Avocet_breeding_publication/figures')
 
@@ -253,9 +254,14 @@ ggsave(filename = 'sabap_saea.pdf', plot=p)
   
 
 
+
+
+
+
+
 #####
 # Count in South Africa
-ctsa <- read.csv('../data/CWAC_data_Avocet_selectionOfSItes.csv') %>% 
+ctsa <- read.csv('../data/south_africa/CWAC_data_Avocet_selectionOfSItes.csv') %>% 
   mutate(dayofyear = yday(Date))
 
 
@@ -265,8 +271,16 @@ ctsa %>%
   geom_smooth()
 
 
+
+
+
+
+
+
 #####
 # Count in East Africa
+
+# This first dataset was gathered includeding various source (eBird, scopus, Don Turner pers com.)
 ctea <- read.csv('../data/East_africa_avocet_count.csv') %>% 
   mutate(
     count = as.numeric(str_replace(count,',','')),
@@ -289,3 +303,39 @@ p <- ctea %>%
 ggsave(filename = 'East_africa_counts.pdf', plot=p) 
 
 
+
+
+# We aggregated more data from East African bird count. 
+ctea <- read_excel('../data/waterbirdcountNMK.xlsx', sheet = "Avocet January") 
+# delete the average column and the row below the table
+ctea <- ctea[1:26,1:33] 
+# Main place
+pla <- c('Lake Elmenteita','Lake Magadi','Lake Nakuru')
+p <- ctea %>% 
+  pivot_longer(starts_with('19')|starts_with('20'),names_to = "year",values_to = "count") %>% 
+  mutate(
+    year=as.numeric(year),
+    Place = ifelse(Place %in% pla ,Place,'other')
+    ) %>% 
+  ggplot(aes(x=year, y=count, fill=Place)) +
+  geom_col(position = position_stack(reverse = TRUE)) +
+  scale_x_continuous(minor_breaks = seq(1990, 2020, 1))
+
+ggsave(filename = 'NMK_East_africa_counts_jan.pdf', plot=p) 
+
+
+ctea <- read_excel('../data/waterbirdcountNMK.xlsx', sheet = "Avocet July") 
+# delete the average column and the row below the table
+ctea <- ctea[1:25,1:25] 
+# Main place
+p <- ctea %>% 
+  pivot_longer(starts_with('19')|starts_with('20'),names_to = "year",values_to = "count") %>% 
+  mutate(
+    year=as.numeric(year),
+    Place = ifelse(Place %in% pla ,Place,'other')
+  ) %>% 
+  ggplot(aes(x=year, y=count, fill=Place)) +
+  geom_col(position = position_stack(reverse = TRUE)) +
+  scale_x_continuous(minor_breaks = seq(1990, 2020, 1))
+  
+ggsave(filename = 'NMK_East_africa_counts_jul.pdf', plot=p) 

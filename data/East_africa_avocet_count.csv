@@ -1,57 +1,57 @@
-date,count,place,observer,source
-01/08/1969,200,Nakuru,,"(Britton & Backhurst, 1980)"
-01/08/1969,800,Rukwa,,"(Britton & Backhurst, 1980)"
-01/08/1969,500,Magadi,,"(Britton & Backhurst, 1980)"
-02/02/1981,"1,000",Bolossat,DJP,Scopus
-15/01/1986,"3,200",Turkana,,(Bennun & Fasola 1996 Report)
-29/07/1989,530,Magadi,David Holyoak,https://ebird.org/checklist/S19595915
-28/10/1990,904,Nakuru,"RW, KWWG",Scopus
-15/01/1991,660,kenya,,DT
-15/01/1992,1261,kenya,,DT
-15/01/1993,"1,155",kenya,,DT
-15/01/1993,"1,097",Elementeita,,DT
-15/01/1994,"3,232",Elementeita,,DT
-15/01/1994,100,Nakuru,,DT
-15/01/1994,"3,525",kenya,,DT
-15/01/1994,"3,349",Elementeita,,DT
-15/01/1995,"4,956",Magadi,,Delany
-15/01/1995,"1,309",Elementeita,,DT
-15/01/1995,8323,tanzania,,DT
-15/01/1995,4946,Manyara,,DT
-15/01/1995,2000,Eyasi,,DT
-15/07/1995,"1,636",kenya,,DT
-15/01/1996,"3,215",Elementeita,,DT
-15/01/1996,441,Magadi,,DT
-15/01/1996,"3,808",kenya,,DT
-15/01/1996,"3,427",Elementeita,,DT
-15/01/1997,"4,186",Elementeita,,DT
-15/01/1997,"1,000",Magadi,,DT
-15/01/1997,"6,276",kenya,,DT
-15/01/1997,"5,021",Elementeita,,DT
-15/01/1997,941,Magadi,,DT
-15/01/1998,"1,236",Magadi,,DT
-15/01/1998,"1,558",kenya,,DT
-15/01/1998,"1,402",Magadi,,DT
-15/01/1999,"1,257",kenya,,DT
-15/01/2000,"1,109",kenya,,DT
-15/01/2000,555,Magadi,,DT
-15/01/2000,333,Elementeita,,DT
-15/01/2001,"2,088",kenya,,DT
-15/01/2001,"1,775",Elementeita,,DT
-15/01/2002,663,kenya,,DT
-15/01/2002,630,Elementeita,,DT
-15/01/2005,2247,tanzania,,DT
-15/01/2017,469,kenya,,DT
-15/01/2017,422,Magadi,,DT
-15/01/2018,"2,357",Magadi,,DT
-15/01/2018,"3,193",kenya,,DT
-15/01/2018,66,Elementeita,,DT
-15/07/2018,61,kenya,,DT
-15/01/2019,"1,385",kenya,,DT
-15/01/2019,"1,108",Magadi,,DT
-15/07/2019,"3,135",Magadi,,DT
-15/07/2019,"3,203",kenya,,DT
-18/12/2019,1000,Ngorongoro Conservation,Taylor Davis,https://ebird.org/checklist/S62436006
-15/01/2020,632,kenya,,DT
-15/01/2020,348,Elementeita,,DT
-15/01/2020,221,Magadi,,DT
+date,count,place,observer,source,note
+01/08/1969,200,Nakuru,,"(Britton & Backhurst, 1980)",
+01/08/1969,800,Rukwa,,"(Britton & Backhurst, 1980)",
+01/08/1969,500,Magadi,,"(Britton & Backhurst, 1980)",
+02/02/1981,"1,000",Bolossat,DJP,Scopus,
+15/01/1986,"3,200",Turkana,,(Bennun & Fasola 1996 Report),
+29/07/1989,530,Magadi,David Holyoak,https://ebird.org/checklist/S19595915,
+28/10/1990,904,Nakuru,"RW, KWWG",Scopus,
+15/01/1991,660,kenya,,DT,
+15/01/1992,1261,kenya,,DT,
+15/01/1993,"1,155",kenya,,DT,
+15/01/1993,"1,097",Elementeita,,DT,
+15/01/1994,"3,232",Elementeita,,DT,
+15/01/1994,100,Nakuru,,DT,
+15/01/1994,"3,525",kenya,,DT,
+15/01/1994,"3,349",Elementeita,,DT,
+15/01/1995,"4,956",Magadi,,Delany,Errors?
+15/01/1995,"1,309",Elementeita,,DT,
+15/01/1995,8323,tanzania,,DT,
+15/01/1995,4946,Manyara,,DT,
+15/01/1995,2000,Eyasi,,DT,
+15/07/1995,"1,636",kenya,,DT,
+15/01/1996,"3,215",Elementeita,,DT,
+15/01/1996,441,Magadi,,DT,
+15/01/1996,"3,808",kenya,,DT,
+15/01/1996,"3,427",Elementeita,,DT,
+15/01/1997,"4,186",Elementeita,,DT,
+15/01/1997,"1,000",Magadi,,DT,
+15/01/1997,"6,276",kenya,,DT,
+15/01/1997,"5,021",Elementeita,,DT,
+15/01/1997,941,Magadi,,DT,
+15/01/1998,"1,236",Magadi,,DT,
+15/01/1998,"1,558",kenya,,DT,
+15/01/1998,"1,402",Magadi,,DT,
+15/01/1999,"1,257",kenya,,DT,
+15/01/2000,"1,109",kenya,,DT,
+15/01/2000,555,Magadi,,DT,
+15/01/2000,333,Elementeita,,DT,
+15/01/2001,"2,088",kenya,,DT,
+15/01/2001,"1,775",Elementeita,,DT,
+15/01/2002,663,kenya,,DT,
+15/01/2002,630,Elementeita,,DT,
+15/01/2005,2247,tanzania,,DT,
+15/01/2017,469,kenya,,DT,
+15/01/2017,422,Magadi,,DT,
+15/01/2018,"2,357",Magadi,,DT,
+15/01/2018,"3,193",kenya,,DT,
+15/01/2018,66,Elementeita,,DT,
+15/07/2018,61,kenya,,DT,
+15/01/2019,"1,385",kenya,,DT,
+15/01/2019,"1,108",Magadi,,DT,
+15/07/2019,"3,135",Magadi,,DT,
+15/07/2019,"3,203",kenya,,DT,
+18/12/2019,1000,Ngorongoro Conservation,Taylor Davis,https://ebird.org/checklist/S62436006,
+15/01/2020,632,kenya,,DT,
+15/01/2020,348,Elementeita,,DT,
+15/01/2020,221,Magadi,,DT,

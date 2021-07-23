@@ -11,3 +11,4 @@ Several populations of Pied Avocet are understood to overlap in East Africa, yet
 > Nussbaumer, R., Nussbaumer, A., & Turner, D. (2021). Status and size of Pied Avocet Recurvirostra avosetta populations in East Africa , with a first coastal breeding record. *Scopus*, 41(2), 1–10.
 
 ![](/figures/Photo1.jpg)
+*Pied Avocet adult and chicks at Gongoni, central Kenya coast, on 23 January 2020 (Photo: [M. Adamjee](https://www.instagram.com/the_kenyan_birder/)).*
